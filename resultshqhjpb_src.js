@@ -57,8 +57,8 @@ var max=document.createElement('input');
   case "11F": case "12M": AGEGROUPS = "11F 12M"; break;
   case "11M": case "12F": AGEGROUPS = "11M 12F"; break;
   case "13F": case "13M": AGEGROUPS = "13M 13F"; break;
-  case "14M": case "14F": case "15F": AGEGROUPS = "14M 14F 15F"; break;
-  default:AGEGROUPS = "15M 17F 17M";
+  case "17M": case "17F": AGEGROUPS = "15M 17F 17M"; break;
+  case "14M": case "14F": case "15F": default: AGEGROUPS = "14M 14F 15F"; 
   }
  }
  
